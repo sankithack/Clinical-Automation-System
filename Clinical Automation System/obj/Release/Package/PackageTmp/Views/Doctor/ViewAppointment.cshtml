@@ -1,0 +1,65 @@
+﻿@using CAS_DAL;
+@model IEnumerable<Appointment>
+
+@{
+    ViewBag.Title = "View Appointment";
+}
+<br />
+<ol class="breadcrumb">
+    <li class="breadcrumb-item active">Doctor's Appointments:</li>
+</ol>
+<hr />
+<div class="container">
+    <form method="post">
+        <fieldset>
+            <legend>View Appointments of Dr. @Session["Name"] :</legend>
+            <div class="form-row justify-content-center">
+                <div class="form-group row">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1">Search Appointments</span>
+                        </div>
+                        <div class="col-xs-3">
+                            <input type="date" class="form-control input-sm" placeholder="Enter Date" id="txtAppDate" name="txtAppDate" aria-label="Date" aria-describedby="basic-addon1" required>
+                        </div>
+                        <div class="input-group-append">
+                            <button class="btn btn-success ml-1" type="submit" id="button-addon2">Search</button>
+                        </div>
+                        <div class="input-group-append">
+                            <a class="btn btn-primary ml-1" href="/Doctor/ViewAppointment" type="button" id="button-addon2">View All Appointments</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th scope="col">Appointment Id</th>
+                <th scope="col">Patient Name</th>
+                <th scope="col">Appointemnt Date</th>
+                <th scope="col">Details</th>
+                <th scope="col">Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (Appointment item in Model.ToList())
+            {
+                <tr class="table-active">
+                    <th scope="row">@item.AppointmentId</th>
+                    <td>@item.User.Name</td>
+                    <td>@item.StartDateTime.ToString("dd-MM-yyyy")</td>
+                    <th>@item.Details</th>
+                    <td>
+                        <button type="button" class="btn btn-outline-info">@item.Status</button>
+                    </td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+</div>
+
+
+

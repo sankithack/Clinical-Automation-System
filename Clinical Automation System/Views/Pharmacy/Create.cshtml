@@ -1,0 +1,46 @@
+﻿@using CAS_DAL;
+@model Medicine
+
+@{
+    ViewBag.Title = "Create Medicine";
+}
+<br />
+<ol class="breadcrumb">
+    <li class="breadcrumb-item active">Create Medicine</li>
+</ol>
+<hr />
+<div class="container">
+    <form method="post" action="/Pharmacy/Create">
+        <fieldset>
+            <legend>Create Medicine:</legend>
+            <div class="form-row justify-content-center">
+                <div class="form-group w-50">
+                    <label for="staticName">Name</label>
+                    @Html.TextBoxFor(medi => medi.Name, new { type = "text", @class = "form-control", placeholder = "Enter Name", required = "required" })
+                </div>
+                <div class="form-group w-50">
+                    <label for="exampleInputPrice">Price</label>
+                    @Html.TextBoxFor(medi => medi.Price, new { type = "number", @class = "form-control", placeholder = "Enter Price", required = "required" })
+                </div>
+                <div class="form-group w-50">
+                    <label for="exampleInputStock">Stock</label>
+                    @Html.TextBoxFor(medi => medi.Stock, new { type = "number", @class = "form-control", placeholder = "Enter Stock", required = "required" })
+                </div>
+                <div class="form-group w-50">
+                    <label for="exampleInputTax">Tax</label>
+                    @Html.TextBoxFor(medi => medi.Tax, new { type = "number", @class = "form-control", placeholder = "Enter Tax", required = "required" })
+                </div>
+                <div class="form-group w-50">
+                    <label for="exampleIsAvailable">IsAvailable</label>
+                    @Html.DropDownListFor(medi => medi.IsAvailable, new SelectList(new List<Object> {
+                new { Id = true, Value="Yes" },
+                new { Id = false, Value="No" } }, "Id", "Value"), new { @class = "form-control" })
+                </div>
+                 <div class="form-group w-100 text-center">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                 </div>
+                </div>
+</fieldset>
+    </form>
+</div>
+

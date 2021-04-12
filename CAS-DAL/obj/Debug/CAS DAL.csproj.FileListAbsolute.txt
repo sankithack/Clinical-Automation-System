@@ -1,0 +1,24 @@
+C:\Users\AkshitKumarChandora\source\repos\Clinical Automation System\CAS-DAL\bin\Debug\CAS-DAL.dll.config
+C:\Users\AkshitKumarChandora\source\repos\Clinical Automation System\CAS-DAL\bin\Debug\CAS-DAL.dll
+C:\Users\AkshitKumarChandora\source\repos\Clinical Automation System\CAS-DAL\bin\Debug\CAS-DAL.pdb
+C:\Users\AkshitKumarChandora\source\repos\Clinical Automation System\CAS-DAL\bin\Debug\EntityFramework.dll
+C:\Users\AkshitKumarChandora\source\repos\Clinical Automation System\CAS-DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\AkshitKumarChandora\source\repos\Clinical Automation System\CAS-DAL\bin\Debug\EntityFramework.xml
+C:\Users\AkshitKumarChandora\source\repos\Clinical Automation System\CAS-DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\AkshitKumarChandora\source\repos\Clinical Automation System\CAS-DAL\obj\Debug\CAS DAL.csproj.CoreCompileInputs.cache
+C:\Users\AkshitKumarChandora\source\repos\Clinical Automation System\CAS-DAL\obj\Debug\CAS DAL.csproj.CopyComplete
+C:\Users\AkshitKumarChandora\source\repos\Clinical Automation System\CAS-DAL\obj\Debug\CAS-DAL.dll
+C:\Users\AkshitKumarChandora\source\repos\Clinical Automation System\CAS-DAL\obj\Debug\CAS-DAL.pdb
+C:\Users\AkshitKumarChandora\source\repos\Clinical Automation System\CAS-DAL\obj\Debug\CAS DAL.csprojAssemblyReference.cache
+C:\Users\NitikaShrivastava\Downloads\Clinical Automation System\CAS-DAL\bin\Debug\CAS-DAL.dll.config
+C:\Users\NitikaShrivastava\Downloads\Clinical Automation System\CAS-DAL\bin\Debug\CAS-DAL.dll
+C:\Users\NitikaShrivastava\Downloads\Clinical Automation System\CAS-DAL\bin\Debug\CAS-DAL.pdb
+C:\Users\NitikaShrivastava\Downloads\Clinical Automation System\CAS-DAL\bin\Debug\EntityFramework.dll
+C:\Users\NitikaShrivastava\Downloads\Clinical Automation System\CAS-DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\NitikaShrivastava\Downloads\Clinical Automation System\CAS-DAL\bin\Debug\EntityFramework.xml
+C:\Users\NitikaShrivastava\Downloads\Clinical Automation System\CAS-DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\NitikaShrivastava\Downloads\Clinical Automation System\CAS-DAL\obj\Debug\CAS DAL.csprojAssemblyReference.cache
+C:\Users\NitikaShrivastava\Downloads\Clinical Automation System\CAS-DAL\obj\Debug\CAS DAL.csproj.CoreCompileInputs.cache
+C:\Users\NitikaShrivastava\Downloads\Clinical Automation System\CAS-DAL\obj\Debug\CAS DAL.csproj.CopyComplete
+C:\Users\NitikaShrivastava\Downloads\Clinical Automation System\CAS-DAL\obj\Debug\CAS-DAL.dll
+C:\Users\NitikaShrivastava\Downloads\Clinical Automation System\CAS-DAL\obj\Debug\CAS-DAL.pdb

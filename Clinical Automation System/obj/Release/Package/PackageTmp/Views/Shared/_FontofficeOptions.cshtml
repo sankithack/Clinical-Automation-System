@@ -1,0 +1,17 @@
+﻿<div class="collapse navbar-collapse" id="navbarColor02">
+    <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+            @Html.ActionLink("Home", "Index", "Account", null, new { @class = "nav-link" })
+            <span class="sr-only">(current)</span>
+
+        </li>
+        <li class="nav-item">
+            @Html.ActionLink("Add Doctor", "Add", "Doctor", null, new { @class = "nav-link" })
+        </li>
+    </ul>
+
+    <form class="form-inline my-2 my-lg-0">
+        <span class="nav-link text-light"> Hi @Session["Name"] ,</span>
+        <button class="btn btn-secondary my-2 my-sm-0" type="submit">LogOut</button>
+    </form>
+</div>

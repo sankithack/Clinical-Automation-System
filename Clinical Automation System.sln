@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clinical Automation System", "Clinical Automation System\Clinical Automation System.csproj", "{6AF10E22-3378-4BB5-A8DA-9F2881EEF485}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAS DAL", "CAS-DAL\CAS DAL.csproj", "{7C284949-185A-4CB3-A02F-7F7CD86888D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6AF10E22-3378-4BB5-A8DA-9F2881EEF485}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AF10E22-3378-4BB5-A8DA-9F2881EEF485}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AF10E22-3378-4BB5-A8DA-9F2881EEF485}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AF10E22-3378-4BB5-A8DA-9F2881EEF485}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C284949-185A-4CB3-A02F-7F7CD86888D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C284949-185A-4CB3-A02F-7F7CD86888D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C284949-185A-4CB3-A02F-7F7CD86888D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C284949-185A-4CB3-A02F-7F7CD86888D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A4AC1691-88AD-4672-BE01-FDCED1A8BACB}
+	EndGlobalSection
+EndGlobal
